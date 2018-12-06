@@ -12,7 +12,7 @@ var session =require("express-session");
 
 var app = express();
 
-mongoose.connect('mongodb://127.0.0.1/studyNodedb');
+mongoose.connect('mongodb://khinmamawine:khinmamawine123@ds045054.mlab.com:45054/studynode');
 var db = mongoose.connection;
 db.on('error',console.error.bind(console,'MongoDB  connection error'));
 
